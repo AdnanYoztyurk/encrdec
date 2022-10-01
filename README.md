@@ -1,5 +1,5 @@
 # encrdec
-The Python script to encrypt and decryption PII data like passwords.
+The Python script encrypts and decrypts PII data like passwords.
 
 # About me
 I love automating Python jobs. Most of them include data pipeline building for analytics purposes. 
