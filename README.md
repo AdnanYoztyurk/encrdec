@@ -14,5 +14,25 @@ There are two main parts (functions) of the process, encryption and decryption.
 
 **Decryption**: When the PII is encrypted, you address the .bin file path. Finally, decrypt the password in the script and run your script securely.
 
+# Encryption
+
+Use the following code to encrypt your PII data. 
+
+import encrdec
+
+file_path = r"C:\Github\file.bin" # Please change the file paths.
+
+encrdec.encryption(file_path)
+
+# Decryption
+
+Use the following code to decrypt your PII data. 
+
+import encrdec
+
+file_path = r"C:\Github\file.bin" # Please address the file path you used for encryption.
+
+encrdec.decryption(file_path)
+
 # Author
 Adnan Yoztyurk
